@@ -39,16 +39,6 @@
             "unlike":1,
             "currentStatus":"paused",
             "exitplayprogress":80
-        },
-        {
-            "title":"Understanding Javascript",
-            "url":"https://www.youtube.com/watch?v=Bv_5Zv5c-Ts",
-            "status":"edited",
-            "approved":0,
-            "likes":25,
-            "unlike":5,
-            "currentStatus":"stopped",
-            "exitplayprogress":80
         }
 
     ]
