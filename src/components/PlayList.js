@@ -23,8 +23,8 @@ class Player extends React.Component{
 		if(this.state.movies && this.state.movies.length>0){
 			 content =	this.state.movies.map((item)=>
 			        <div>
-			          {item.title}&nbsp;
-			          <a>{item.title}</a>
+			          {/* {item.title}&nbsp; */}
+			          <a href = {item.url}>{item.title}</a>
 			          <hr/>
 			        </div>
 		      )

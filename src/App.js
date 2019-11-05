@@ -21,7 +21,7 @@ class App extends React.Component {
 	        <Route path="/news" component={News}></Route> */} 
 
 	        <VideoPlayer source={require('./media/mov_bbb.mp4')}/>
-			<PlayList source={require('db.json')}/>
+			<PlayList source='http://my-json-server.typicode.com/LyndonYang1980/fsd-react-vedio/db'/>
 	    </Router>
 	)}
 }
