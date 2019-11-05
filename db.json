@@ -1,5 +1,15 @@
 {
-    "youtube":[
+    "youku":[
+        {
+            "title":"The new narotu area",
+            "url":"https://v.youku.com/v_show/id_XMjY4NjM5Mzc0MA==.html?spm=a2h1n.8261147.reload_1.1~3~5~A&s=311801efbfbd111211ef",
+            "status":"added",
+            "approved":1,
+            "likes":0,
+            "unlike":0,
+            "currentStatus":"paused",
+            "exitplayprogress":0
+        },
         {
             "title":"Sadhguru and Physics",
             "url":"https://www.youtube.com/watch?v=pAluQXDTM9g",

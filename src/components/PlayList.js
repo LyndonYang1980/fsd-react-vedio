@@ -12,7 +12,7 @@ class Player extends React.Component{
 	componentDidMount() {
 	    this.serverRequest = $.get(this.props.source, function (result) {
 	     	this.setState({
-	     		movies: result['youtube']
+	     		movies: result['youku']
 	     	})
 	    }.bind(this));
     }
