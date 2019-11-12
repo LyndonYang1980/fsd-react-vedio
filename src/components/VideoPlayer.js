@@ -1,6 +1,7 @@
 import React from 'react'
 import Player from './Player'
 import VideoControl from './VideoControl'
+import ProgressBarControl from './ProgressBarControl'
 
 class VideoPlayer extends React.Component{
 	constructor(props){
@@ -11,6 +12,7 @@ class VideoPlayer extends React.Component{
 		return(
 			<div>
 				<Player source={this.props.source}/>
+				<ProgressBarControl />
 				<VideoControl />
 			</div>
 		)
