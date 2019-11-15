@@ -16,6 +16,7 @@ class VideoControl extends React.Component{
 			"playbuttondisplay": 'true',			
 			"volumedisplay":'true',
 			"volume":0.8,
+			"likes":0,
 		}
 	}
 
@@ -60,7 +61,11 @@ class VideoControl extends React.Component{
 		};	
 
 	addLikes(){
-		
+		var likesNum = this.state.likes + 1;
+		this.setState({
+			"likes": likesNum,
+		});
+		document.getElementById("numberoflikes").innerHTML = likesNum + " likes";
 	}
 
 	render(){
@@ -70,7 +75,7 @@ class VideoControl extends React.Component{
 		let playdisablebuttonstyle = this.state.playbuttondisplay=='true'? {display: 'none'}:{display: 'inline'}
 		let volumestyle = this.state.volumedisplay=='false'? {display: 'none'}:{display: 'inline'}
 		let volumemutestyle = this.state.volumedisplay=='true'? {display: 'none'}:{display: 'inline'}
-		let localStorage = window.localStorage;
+		
 		
 		return(
 
